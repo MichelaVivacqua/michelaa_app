@@ -4,10 +4,9 @@ import { Component } from "react";
 
 class ImageComponent extends Component {
   render() {
-    const { src, altText } = this.props;
     return (
       <div>
-        <img src={src} alt={altText} />
+        <img src={this.props.src} alt={this.props.altText} />
       </div>
     );
   }
