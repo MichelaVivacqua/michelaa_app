@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ButtonComponent from "./ButtonComponents";
+import ImageComponent from "./ImageComponent";
 
 function App() {
   return (
@@ -17,9 +19,13 @@ function App() {
         >
           Learn React
         </a>
+        <ButtonComponent buttonText="MICHELA react button" />
+        <ImageComponent
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQInF7X0ygu8UbgJWhmU8a-yMg0xfGBKzyXww&usqp=CAU"
+          altText="mare"
+        />
       </header>
     </div>
   );
 }
-
 export default App;
